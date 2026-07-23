@@ -39,3 +39,4 @@ class Pingram < Formula
   test do
     assert_match version.to_s, shell_output("#{bin}/pingram --version")
   end
+end
