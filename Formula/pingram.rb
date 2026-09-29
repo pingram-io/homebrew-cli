@@ -8,28 +8,28 @@
 class Pingram < Formula
   desc "Official Pingram CLI"
   homepage "https://pingram.io"
-  version "1.0.17"
+  version "1.0.19"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/pingram-io/cli/releases/download/pingram-cli-v1.0.17/pingram-darwin-arm64.tar.gz"
-      sha256 "bffc29f46b44be3780ae1a04b7242ccf6d8cc4f9722d96916525bf1f181013d5"
+      url "https://github.com/pingram-io/cli/releases/download/pingram-cli-v1.0.19/pingram-darwin-arm64.tar.gz"
+      sha256 "1476cd9989483fabd370d2a9e1957525061a034286d4e0e91ed0c31bb2b28452"
     end
     on_intel do
-      url "https://github.com/pingram-io/cli/releases/download/pingram-cli-v1.0.17/pingram-darwin-x64.tar.gz"
-      sha256 "89c4bd3e3d1486d1351ee6528dac273d709a2899e119dd1bb859a0f025c03280"
+      url "https://github.com/pingram-io/cli/releases/download/pingram-cli-v1.0.19/pingram-darwin-x64.tar.gz"
+      sha256 "2665138d03978c5492c10d47cf76d08bb55311d25932d360f92b69bd5e59a18c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pingram-io/cli/releases/download/pingram-cli-v1.0.17/pingram-linux-arm64.tar.gz"
-      sha256 "b0c5355e0af26e7e233dfb47b0d77add4e85d00958cb8b9fc7b33719261cd023"
+      url "https://github.com/pingram-io/cli/releases/download/pingram-cli-v1.0.19/pingram-linux-arm64.tar.gz"
+      sha256 "c7ed1eecd9d32dcf4f6ff943a39fa5eef9c3c71e3d16483ba5c84991f38c043e"
     end
     on_intel do
-      url "https://github.com/pingram-io/cli/releases/download/pingram-cli-v1.0.17/pingram-linux-x64.tar.gz"
-      sha256 "a6dbdbc964db64e3f5a1015d8fe47cb461c546762e499dad31ee308ebe680c1a"
+      url "https://github.com/pingram-io/cli/releases/download/pingram-cli-v1.0.19/pingram-linux-x64.tar.gz"
+      sha256 "70a6a4189132c97f9e1988af9e2636aae87f0b8af8601e41cb9fbf2b8e0e662b"
     end
   end
 
